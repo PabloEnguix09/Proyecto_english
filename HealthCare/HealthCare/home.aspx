@@ -17,10 +17,10 @@
             </a>
             <ul class="navbar-links">
                 <li>
-                    <a href="#">About us</a>
+                    <a href="#about">About us</a>
                 </li>
                 <li>
-                    <a href="#">Contact us</a>
+                    <a href="#contact">Contact us</a>
                 </li>
                 <li>
                     <a href="login.aspx">Login</a>
@@ -40,9 +40,17 @@
         </div>
     </form>
 
-    <main>
-
+    <main id="about">
+        <h2>About us</h2>
+        <p>Grau Llopis HealthCare was born in 1937 in Gandia, and we've been expanding around Spain. We have professionals from very different branches, 
+            such as anatomy, embryology, endocrinology, gynecology, surgery, internal medicine and dermatology. Here, we will give you the best possible treatment for you
+            and your loved ones.
+        </p>
     </main>
+
+    <div id="contact">
+        <h2>Contact us</h2>
+    </div>
 
         <footer>
             <a id="logo" href="home.aspx">

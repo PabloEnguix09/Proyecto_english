@@ -91,6 +91,11 @@ header {
     color: #dddddd;
 }
 
+#about, #contact{
+    width:100%;
+    text-align:center;
+}
+
 #data {
     display: flex;
     align-items: center;
@@ -126,6 +131,7 @@ header {
     padding: 2rem;
     border-radius:20px;
 }
+
 #loginData input {
     width: 350px;
     height: 43px;

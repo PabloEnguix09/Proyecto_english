@@ -17,10 +17,10 @@
             </a>
             <ul class="navbar-links">
                 <li>
-                    <a href="#">About us</a>
+                    <a href="home.aspx#about">About us</a>
                 </li>
                 <li>
-                    <a href="#">Contact us</a>
+                    <a href="home.aspx#contact">Contact us</a>
                 </li>
                 <li>
                     <a href="login.aspx">Login</a>

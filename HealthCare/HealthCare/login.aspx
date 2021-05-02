@@ -34,9 +34,9 @@
             <h1>Log in</h1>
 
             <div id="loginData">
-                <input id="username" type="text" placeholder="Name, number..."/>
-                <input id="pass" type="password" placeholder="Code"/>
-                <button id="loginButton" class="button"> Log in</button>
+                <input id="username" runat="server" type="text" placeholder="Name, number..."/>
+                <input id="pass" runat="server" type="password" placeholder="Code" />
+                <asp:Button id="loginButton" runat="server" OnClick="Button1_Click" Text="Button" />
             </div>
         </div>
     </form>

@@ -57,3 +57,5 @@ C:\Users\pablo\OneDrive\Escritorio\Inglés\repos\Proyecto_english\HealthCare\Hea
 C:\Users\pablo\OneDrive\Escritorio\Inglés\repos\Proyecto_english\HealthCare\HealthCare\obj\Debug\HealthCare.csproj.CopyComplete
 C:\Users\pablo\OneDrive\Escritorio\Inglés\repos\Proyecto_english\HealthCare\HealthCare\obj\Debug\HealthCare.dll
 C:\Users\pablo\OneDrive\Escritorio\Inglés\repos\Proyecto_english\HealthCare\HealthCare\obj\Debug\HealthCare.pdb
+C:\Users\pablo\OneDrive\Escritorio\Inglés\repos\Proyecto_english\HealthCare\HealthCare\bin\System.Data.SQLite.dll
+C:\Users\pablo\OneDrive\Escritorio\Inglés\repos\Proyecto_english\HealthCare\HealthCare\bin\System.Data.SQLite.xml

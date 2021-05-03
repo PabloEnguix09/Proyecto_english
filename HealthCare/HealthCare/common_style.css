@@ -91,9 +91,24 @@ header {
     color: #dddddd;
 }
 
-#about, #contact{
-    width:100%;
-    text-align:center;
+#about, #contact {
+    margin:1rem auto;
+    width: 100%;
+    text-align: center;
+}
+
+#about div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#about p {
+    margin:0 500px;
+    margin-top:50px;
+    text-align:left;
+    font-size:1.25rem;
 }
 
 #data {

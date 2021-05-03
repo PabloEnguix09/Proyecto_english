@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="common_style.css" />
     <title>Grau Llopis HealthCare</title>
 </head>
@@ -42,10 +42,19 @@
 
     <main id="about">
         <h2>About us</h2>
-        <p>Grau Llopis HealthCare was born in 1937 in Gandia, and we've been expanding around Spain. We have professionals from very different branches, 
-            such as anatomy, embryology, endocrinology, gynecology, surgery, internal medicine and dermatology. Here, we will give you the best possible treatment for you
-            and your loved ones.
-        </p>
+            <div>
+                <p>
+                    Grau Llopis HealthCare was born in 1937 in Gandia, and we've been expanding around Spain. We have professionals from very different branches, 
+                such as anatomy, embryology, endocrinology, gynecology, surgery, internal medicine and dermatology. Here, we will give you the best possible treatment for you
+                and your loved ones. We put users first when creating and transforming our content. We take an agile, iterative approach, starting with identifying the user needs.
+                We test our ideas with users, and use the feedback we receive to learn and improve. We're continuously improving the website to help and empower people to 
+                engage with their own health, care and wellbeing, and that of the people they care for.
+                </p>
+                <p>
+                    We are continually listening to feedback from our patients and public and we act as a learning organisation, using these experiences to inform how we develop. 
+                    We are committed to improvement through learning.
+                </p>
+            </div>
     </main>
 
     <div id="contact">

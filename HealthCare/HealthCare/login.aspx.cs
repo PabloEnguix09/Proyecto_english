@@ -39,12 +39,12 @@ namespace HealthCare
 
             string conString = "Data Source=" + dbPath + ";Version=3;";
 
-            using (MD5 md5Hash = MD5.Create())
+            /*using (MD5 md5Hash = MD5.Create())
             {
                 byte[] data = md5Hash.ComputeHash(Encoding.UTF8.GetBytes(password));
                 password = BitConverter.ToString(data).Replace("-", string.Empty);
 
-            }
+            }*/
 
             using (SQLiteConnection connection = new SQLiteConnection(conString))
             {
@@ -75,6 +75,14 @@ namespace HealthCare
                     myCookie.Value = user_ID.ToString();
                     Response.Cookies.Add(myCookie);
                     Response.Redirect("patient.aspx");
+                }
+
+                else if (userType == 1)
+                {
+                    HttpCookie myCookie = new HttpCookie("ID");
+                    myCookie.Value = user_ID.ToString();
+                    Response.Cookies.Add(myCookie);
+                    Response.Redirect("doctor.aspx");
                 }
             }
         }

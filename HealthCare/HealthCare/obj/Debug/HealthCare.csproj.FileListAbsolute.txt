@@ -120,3 +120,5 @@ E:\repos\GitHub\Proyecto_english\HealthCare\HealthCare\obj\Debug\HealthCare.cspr
 E:\repos\GitHub\Proyecto_english\HealthCare\HealthCare\obj\Debug\HealthCare.csproj.CopyComplete
 E:\repos\GitHub\Proyecto_english\HealthCare\HealthCare\obj\Debug\HealthCare.dll
 E:\repos\GitHub\Proyecto_english\HealthCare\HealthCare\obj\Debug\HealthCare.pdb
+E:\repos\GitHub\Proyecto_english\HealthCare\HealthCare\bin\Newtonsoft.Json.dll
+E:\repos\GitHub\Proyecto_english\HealthCare\HealthCare\bin\Newtonsoft.Json.xml

@@ -59,6 +59,18 @@
 
     <div id="contact">
         <h2>Contact us</h2>
+        <div id="phone">
+            <img src="phone.png" alt="phone"/>
+            <p>+34 888 88 88 88</p>
+        </div>
+        <div id="email">
+            <img src="email.png" alt="email"/>
+            <p>info@healthcare.com</p>
+        </div>
+        <div id="location">
+            <img src="marker.png" alt="location"/>
+            <p>Paranimf St., 1, Building H, 46730, Grau de Gandia, Valencia</p>
+        </div>
     </div>
 
         <footer>

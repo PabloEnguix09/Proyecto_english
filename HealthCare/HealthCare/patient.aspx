@@ -38,13 +38,30 @@
             <div id="data">
                 <div id="info">
                     <img src="def-user.png" alt="Your user photo"/>
-                    <p>Datos </p>
-                    <p>de la tabla </p>
-                    <p>de pacientes</p>
+<p>
+                        <asp:Label ID="Label2" runat="server" Text="Name"></asp:Label>
+                        <asp:Label ID="lName" runat="server" Text="Label"></asp:Label>
+                    </p>
+                    <p>
+                        <asp:Label ID="Label4" runat="server" Text="Birthdate"></asp:Label>
+                        <asp:Label ID="lDate" runat="server" Text="Label"></asp:Label>
+                    </p>
+                                        <p>
+                        <asp:Label ID="Label6" runat="server" Text="Gender"></asp:Label>
+                        <asp:Label ID="lGender" runat="server" Text="Label"></asp:Label>
+                    </p>
+                    <p>
+                        <asp:Label ID="Label8" runat="server" Text="DNI"></asp:Label>
+                        <asp:Label ID="lDNI" runat="server" Text="Label"></asp:Label>
+                    </p>
+                    <p>
+                        <asp:Label ID="Label3" runat="server" Text="SIP"></asp:Label>
+                        <asp:Label ID="lSIP" runat="server" Text="Label"></asp:Label>
+                    </p>
                 </div>
                 <div id="treatment">
                     
-                    <asp:GridView ID="GridView1" runat="server" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="4" ForeColor="Black" GridLines="Horizontal" Height="188px" Width="367px">
+                    <asp:GridView ID="GridView1" runat="server" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="4" ForeColor="Black" GridLines="Horizontal" Height="16px" Width="577px">
                         <FooterStyle BackColor="#CCCC99" ForeColor="Black" />
                         <HeaderStyle BackColor="#333333" Font-Bold="True" ForeColor="White" />
                         <PagerStyle BackColor="White" ForeColor="Black" HorizontalAlign="Right" />

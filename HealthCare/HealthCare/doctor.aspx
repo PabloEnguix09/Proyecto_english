@@ -71,7 +71,7 @@
                     <asp:ListBox ID="ListBox2" runat="server" Height="186px" Width="300px"></asp:ListBox>
                     <asp:TextBox ID="TextBox1" runat="server" Height="121px" ReadOnly="True" TextMode="MultiLine" Width="300px"></asp:TextBox>
                     <br />
-                    <button class="button">Export to JSON</button>
+                    <asp:button class="button" runat="server" OnClick="Button6_Click" Text="Export to JSON"></asp:button>
                 </div>
             </div>
         </div>

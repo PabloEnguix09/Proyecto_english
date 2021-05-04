@@ -21,7 +21,6 @@ namespace HealthCare
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            //private static string dbPath = Application.StartupPath + @"\databases\furniture.db"; Just for windows form, not asp.net  
             string dbPath = Server.MapPath("~/database/healthCare.db");
 
             string conString = "Data Source=" + dbPath + ";Version=3;";
@@ -39,12 +38,11 @@ namespace HealthCare
 
             string conString = "Data Source=" + dbPath + ";Version=3;";
 
-            /*using (MD5 md5Hash = MD5.Create())
+            using (MD5 md5Hash = MD5.Create())
             {
                 byte[] data = md5Hash.ComputeHash(Encoding.UTF8.GetBytes(password));
                 password = BitConverter.ToString(data).Replace("-", string.Empty);
-
-            }*/
+            }
 
             using (SQLiteConnection connection = new SQLiteConnection(conString))
             {
@@ -59,13 +57,8 @@ namespace HealthCare
                     reader.Read();
                     if (reader.StepCount == 1)
                     {
-
-
                         userType = int.Parse(reader["type"].ToString());
                         user_ID = int.Parse(reader["ID"].ToString());
-
-
-
                     }
                 }
 

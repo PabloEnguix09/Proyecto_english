@@ -17,10 +17,16 @@
             </a>
             <ul class="navbar-links">
                 <li>
-                    <a href="home.aspx#about">About us</a>
+                    <a href="#">My personal data</a>
                 </li>
                 <li>
-                    <a href="home.aspx#contact">Contact us</a>
+                    <a href="#">My treatments</a>
+                </li>
+                <li>
+                    <a href="#">My patients</a>
+                </li>
+                <li>
+                    <a href="#">My schedule</a>
                 </li>
                 <li>
                     <a href="#">Logout</a>
@@ -29,47 +35,43 @@
         </nav>
     </header>
 
-    <form id="form2" runat="server">
+    <form id="form1" runat="server">
         <div>
             <h1>Your patients</h1>
             <div id="data">
                 <div id ="list">
-                    <asp:ListBox ID="ListBox1" runat="server" OnSelectedIndexChanged="ListBox1_SelectedIndexChanged"></asp:ListBox>
-                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
+                    <asp:ListBox ID="ListBox1" runat="server" OnSelectedIndexChanged="ListBox1_SelectedIndexChanged" Width="200px"></asp:ListBox>
+                    <asp:Button class="button" ID="Button1" runat="server" OnClick="Button1_Click" Text="Select" />
                 </div>
                 <div id="info">
-                    <img src="def-user.png" alt="Patient photo"/><asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
-&nbsp;<asp:Label ID="Label9" runat="server" Text="Label"></asp:Label>
-                    <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Modificar datos paciente" />
-                    <p>
+                    <img src="def-user.png" alt="Patient photo"/>&nbsp;<p>
                         <asp:Label ID="Label2" runat="server" Text="Name"></asp:Label>
-                        <asp:Label ID="lName" runat="server" Text="Label"></asp:Label>
+                        <asp:Label ID="lName" runat="server"></asp:Label>
                     </p>
                     <p>
                         <asp:Label ID="Label4" runat="server" Text="Birthdate"></asp:Label>
-                        <asp:Label ID="lDate" runat="server" Text="Label"></asp:Label>
+                        <asp:Label ID="lDate" runat="server"></asp:Label>
                     </p>
                                         <p>
                         <asp:Label ID="Label6" runat="server" Text="Gender"></asp:Label>
-                        <asp:Label ID="lGender" runat="server" Text="Label"></asp:Label>
+                        <asp:Label ID="lGender" runat="server"></asp:Label>
                     </p>
                     <p>
                         <asp:Label ID="Label8" runat="server" Text="DNI"></asp:Label>
-                        <asp:Label ID="lDNI" runat="server" Text="Label"></asp:Label>
+                        <asp:Label ID="lDNI" runat="server"></asp:Label>
                     </p>
                     <p>
                         <asp:Label ID="Label3" runat="server" Text="SIP"></asp:Label>
-                        <asp:Label ID="lSIP" runat="server" Text="Label"></asp:Label>
+                        <asp:Label ID="lSIP" runat="server"></asp:Label>
                     </p>
                 </div>
                 <div id="treatment">
+                    <asp:Button class="button" ID="Button2" runat="server" OnClick="Button2_Click" Text="Details" />
                     <asp:button class="button" runat="server" OnClick="Unnamed1_Click" Text="Add a treatment"></asp:button>
-                    <asp:ListBox ID="ListBox2" runat="server" Height="186px" Width="322px"></asp:ListBox>
-                    <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Button" />
-                    <asp:Button ID="Button3" class="button" runat="server" OnClick="Button3_Click" Text="Modificar tratamiento" />
-                    <asp:TextBox ID="TextBox1" runat="server" Height="121px" ReadOnly="True" TextMode="MultiLine" Width="401px"></asp:TextBox>
+                    <asp:ListBox ID="ListBox2" runat="server" Height="186px" Width="300px"></asp:ListBox>
+                    <asp:TextBox ID="TextBox1" runat="server" Height="121px" ReadOnly="True" TextMode="MultiLine" Width="300px"></asp:TextBox>
                     <br />
-                    <asp:Button ID="Button6" runat="server" Text="Export to JSON" OnClick="Button6_Click" />
+                    <button class="button">Export to JSON</button>
                 </div>
             </div>
         </div>

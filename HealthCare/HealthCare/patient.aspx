@@ -40,23 +40,23 @@
                     <img src="def-user.png" alt="Your user photo"/>
 <p>
                         <asp:Label ID="Label2" runat="server" Text="Name"></asp:Label>
-                        <asp:Label ID="lName" runat="server" Text="Label"></asp:Label>
+                        <asp:Label ID="lName" runat="server"></asp:Label>
                     </p>
                     <p>
                         <asp:Label ID="Label4" runat="server" Text="Birthdate"></asp:Label>
-                        <asp:Label ID="lDate" runat="server" Text="Label"></asp:Label>
+                        <asp:Label ID="lDate" runat="server"></asp:Label>
                     </p>
                                         <p>
                         <asp:Label ID="Label6" runat="server" Text="Gender"></asp:Label>
-                        <asp:Label ID="lGender" runat="server" Text="Label"></asp:Label>
+                        <asp:Label ID="lGender" runat="server"></asp:Label>
                     </p>
                     <p>
                         <asp:Label ID="Label8" runat="server" Text="DNI"></asp:Label>
-                        <asp:Label ID="lDNI" runat="server" Text="Label"></asp:Label>
+                        <asp:Label ID="lDNI" runat="server"></asp:Label>
                     </p>
                     <p>
                         <asp:Label ID="Label3" runat="server" Text="SIP"></asp:Label>
-                        <asp:Label ID="lSIP" runat="server" Text="Label"></asp:Label>
+                        <asp:Label ID="lSIP" runat="server"></asp:Label>
                     </p>
                 </div>
                 <div id="treatment">
